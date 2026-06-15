@@ -1,0 +1,11 @@
+[server]
+maxUploadSize = 900
+[server]
+headless = true
+port = 8080
+
+[theme]
+primaryColor = "#146eb4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
