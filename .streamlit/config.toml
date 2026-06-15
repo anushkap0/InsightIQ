@@ -1,9 +1,6 @@
 [server]
 maxUploadSize = 900
-<<<<<<< HEAD
 enableXsrfProtection = false
 
 [runner]
 magicEnabled = true
-=======
->>>>>>> dd060e4d9872334588b91ef80bcca0fa38eb7b18
