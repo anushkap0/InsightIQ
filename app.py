@@ -1,3 +1,10 @@
+import sys, platform
+if platform.system() == "Linux":
+    try:
+        __import__('pysqlite3')
+        sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+    except ImportError:
+        pass
 import pandas as pd
 import os
 import torch

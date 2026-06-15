@@ -1,2 +1,6 @@
 [server]
 maxUploadSize = 900
+enableXsrfProtection = false
+
+[runner]
+magicEnabled = true
