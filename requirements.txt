@@ -5,7 +5,13 @@ langchain>=0.1.0
 langchain-community>=0.0.15
 langchain-chroma>=0.0.5
 chromadb>=0.4.22
+<<<<<<< HEAD
 protobuf>=3.20.0,<4.0.0
 pysqlite3-binary
 python-dotenv
 sentence-transformers
+=======
+protobuf>=4.25.0,<5.0.0
+opentelemetry-api>=1.21.0
+opentelemetry-exporter-otlp-proto-grpc>=1.21.0
+>>>>>>> dd060e4d9872334588b91ef80bcca0fa38eb7b18
