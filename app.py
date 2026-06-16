@@ -1,18 +1,18 @@
 import sys, platform
-if platform.system() == "Linux":
-    try:
-        __import__('pysqlite3')
-        sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-    except ImportError:
-        pass
-import pandas as pd
 import os
+import warnings
+    try:
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules['pysqlite3']
+except ImportError:
+    pass
+import pandas as pd
+
 import torch
 import streamlit as st
 import matplotlib.pyplot as plt
 from transformers import pipeline
 from dotenv import load_dotenv
-import warnings
 from utils.sentiment_analyzer import SentimentAnalyzer
 from utils.rag_chatbot import RAGChatbot
 from utils.trend_detector import TrendDetector
