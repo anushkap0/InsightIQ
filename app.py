@@ -1,7 +1,7 @@
 import sys, platform
 import os
 import warnings
-    try:
+        try:
     __import__('pysqlite3')
     sys.modules['sqlite3'] = sys.modules['pysqlite3']
 except ImportError:
