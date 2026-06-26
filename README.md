@@ -16,7 +16,7 @@ InsightIQ is a Streamlit-based AI business analyzer that helps you upload review
 Add your live app link here:
 
 ```text
-https://your-app-link.streamlit.app
+https://insightiq-kzj5hwemt4rrjtwdeg5brz.streamlit.app/
 ```
 
 ## Tech Stack
@@ -115,13 +115,7 @@ review_text
 
 Add screenshots of the app here.
 
-## Contributing
 
-Contributions are welcome. For major changes, please open an issue first to discuss what you would like to improve.
-
-## License
-
-Add your preferred license here.
 
 ## Acknowledgements
 
